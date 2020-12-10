@@ -6,7 +6,7 @@ public class Apple extends Food {
         super("Яблоко");
         this.size = size;
     }
-
+// вместо размера яблоко offsize big сьедено
     public void consume() {
 
         System.out.println(this + " съедено");
@@ -20,6 +20,6 @@ public class Apple extends Food {
         this.size = size;
     }
     public String toString() {
-        return super.toString() + " размера '" + size.toUpperCase() + "'";
+        return super.toString() + " Offsize '" + size.toUpperCase() + "'";
     }
 }
